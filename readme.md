@@ -36,5 +36,4 @@ https://mosquitto.org/download/
 
 ### 发布测试
     1.在程序中调用subscribe()方法.这时程序阻塞在这里。
-    2.在命令行中进行发布消息： mosquitto_pub -d -t topic1 -m "Hello MQTT"  注意使用相同的topic
-这时程序的控制台可观察到接收的消息
+    2.在命令行中进行发布消息： mosquitto_pub -d -t topic1 -m "Hello MQTT"  注意使用相同的topic，这时程序的控制台可观察到接收的消息
